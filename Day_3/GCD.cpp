@@ -19,4 +19,5 @@ int main()
     cout << "GCD = " << gcd;
 
     return 0;
+    
 }

@@ -10,8 +10,6 @@ int main() {
     int roll[n];
     string name[n];
     float marks[n];
-
-    // Input Student Records
     for (int i = 0; i < n; i++) {
         cout << "\nStudent " << i + 1 << endl;
 
@@ -24,8 +22,6 @@ int main() {
         cout << "Enter Marks: ";
         cin >> marks[i];
     }
-
-    // Display Student Records
     cout << "\nStudent Records\n";
 
     for (int i = 0; i < n; i++) {
